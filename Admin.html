@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="JS/admin.js"></script>
+    <title>Admin</title>
+  </head>
+  <body>
+    <div class="loading" id="loading">
+      <img src="images/Loading.svg" id="loadingIMG" alt="" />
+    </div>
+    <div class="ToolsBar">
+      <i class="fas fa-blog Link" style="font-size: 3rem"></i>
+      <div style="display: flex; flex-flow: column">
+        <i class="fas fa-home Link Active"></i>
+        <i class="fas fa-th-large Link"></i>
+        <i class="fas fa-chart-pie Link"></i>
+        <i class="fas fa-users Link"></i>
+        <i class="fas fa-cog Link"></i>
+      </div>
+      <i class="fas fa-sign-out-alt Link End"></i>
+    </div>
+    <div class="PageWraper">
+      <div class="CardsWraper">
+        <div class="InfoCard">
+          <div class="CardIcon">
+            <i
+              class="far fa-eye"
+              style="background-color: #f7b924; color: rgb(70, 70, 70)"
+            ></i>
+          </div>
+          <div class="info">
+            <p class="cardtitle">Page views:</p>
+            <p class="value">5060</p>
+          </div>
+        </div>
+        <div class="InfoCard">
+          <div class="CardIcon">
+            <i
+              class="fas fa-box-open"
+              style="background-color: #dd3b62; color: rgb(255, 255, 255)"
+            ></i>
+          </div>
+          <div class="info">
+            <p class="cardtitle">Sold items:</p>
+            <p class="value">250</p>
+          </div>
+        </div>
+        <div class="InfoCard">
+          <div class="CardIcon">
+            <i
+              class="fas fa-cash-register"
+              style="background-color: #0fc567; color: rgb(255, 255, 255)"
+            ></i>
+          </div>
+          <div class="info">
+            <p class="cardtitle">Earnings:</p>
+            <p class="value">3500$</p>
+          </div>
+        </div>
+      </div>
+      <div class="contentBody">
+        <p class="TableHead">Recent Products:</p>
+        <div class="tableWraper">
+          <table>
+            <tbody>
+              <tr>
+                <th>ID</th>
+                <th>Buyer</th>
+                <th>Product</th>
+                <th>Coast</th>
+                <th>Time</th>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>Kareem Youssef Mohamed</td>
+                <td>PS5</td>
+                <td>15000</td>
+                <td>2021/2/9 6:37 PM</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Kareem Youssef Mohamed</td>
+                <td>PS5</td>
+                <td>15000</td>
+                <td>2021/2/9 6:37 PM</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Kareem Youssef Mohamed</td>
+                <td>PS5</td>
+                <td>15000</td>
+                <td>2021/2/9 6:37 PM</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Kareem Youssef Mohamed</td>
+                <td>PS5</td>
+                <td>15000</td>
+                <td>2021/2/9 6:37 PM</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Kareem Youssef Mohamed</td>
+                <td>PS5</td>
+                <td>15000</td>
+                <td>2021/2/9 6:37 PM</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="contentBody">
+        <p class="TableHead">Recent Purchases:</p>
+        <div class="tableWraper">
+          <table>
+            <tbody>
+              <tr>
+                <th>ID</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Time</th>
+                <th>Sold units</th>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>
+                  <img
+                    src="images/Product1.png"
+                    alt="PS5"
+                    style="
+                      background-color: white;
+                      border-radius: 0.5rem;
+                      width: 4rem;
+                      padding: 0.5rem;
+                    "
+                  />
+                </td>
+                <td>PS5</td>
+                <td>15000</td>
+                <td>2020/3/19 8:15 AM</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>
+                  <img
+                    src="images/Product1.png"
+                    alt="PS5"
+                    style="
+                      background-color: white;
+                      border-radius: 0.5rem;
+                      width: 4rem;
+                      padding: 0.5rem;
+                    "
+                  />
+                </td>
+                <td>PS5</td>
+                <td>15000</td>
+                <td>2020/3/19 8:15 AM</td>
+                <td>8</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
